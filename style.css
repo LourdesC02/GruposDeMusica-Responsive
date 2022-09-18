@@ -1,0 +1,57 @@
+@media only screen and (max-width: 600px) {
+    .lista{font-size: 16px;}
+    h1 {font-size: 16px;}
+    p{font-size: 16px;}
+    h3{font-size: 16px;}
+    img {width: 200px;}
+    .tabla{width: 100px;font-size: 16px;}
+    a{font-size: 16px;}
+}
+
+/* Pantallas a partir de 600 píxeles 
+(Ancho como mínimo de 600px)*/
+@media only screen and (min-width: 600px) {
+    .lista{font-size: 18px;}
+    h1 {font-size: 18px;}
+    p{font-size: 18px;}
+    h3{font-size: 18px;}
+    img {width: 300px;}
+    .tabla{width: 200px;font-size: 18px;}
+    a{font-size: 18px;}
+}
+
+/* Pantallas de mas de 600 y menos de 768 píxeles */
+/*(Ancho como mínimo de 768px)*/
+@media only screen and (min-width: 768px) {
+    .lista{font-size: 20px;}
+    h1 {font-size: 20px;}
+    p{font-size: 20px;}
+    h3{font-size: 20px;}
+    img {width: 400px;}
+    .tabla{width: 300px;font-size: 20px;}
+    a{font-size: 20px;}
+}
+
+/* Pantallas de mas de 768 y menos de 992 píxeles */
+/*(Ancho como mínimo de 992px)*/        
+@media only screen and (min-width: 992px) {
+    .lista{font-size: 22px;}
+    h1 {font-size: 22px;}
+    p{font-size: 22px;}
+    h3{font-size: 22px;}
+    img {width: 500px;}
+    .tabla{width: 400px;font-size: 22px;}
+    a{font-size: 22px;}
+}
+
+/* Pantallas de mas de 992 y menos de 1200 píxeles */
+/*(Ancho como mínimo de 1200px)*/          
+@media only screen and (min-width: 1200px) {
+    .lista{font-size: 26px;}
+    h1 {font-size: 26px;}
+    p{font-size: 26px;}
+    h3{font-size: 26px;}
+    img {width: 600px;}
+    .tabla{width: 500px;}
+    a{font-size: 26px;}
+}
